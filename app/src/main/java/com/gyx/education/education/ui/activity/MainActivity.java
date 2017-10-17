@@ -134,10 +134,11 @@ public class MainActivity extends BaseActivity {
                     personalFragment = new PersonalFragment();
                     transaction.add(R.id.id_content, personalFragment);
                 } else
-                {
+                {   //
                     transaction.show(personalFragment);
                 }
                 break;
+
             default:
                 break;
         }
