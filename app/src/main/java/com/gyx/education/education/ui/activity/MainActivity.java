@@ -51,7 +51,7 @@ public class MainActivity extends BaseActivity {
 
     @Override
     protected void initViews() {
-
+        setSelect(0);
     }
 
     @Override
