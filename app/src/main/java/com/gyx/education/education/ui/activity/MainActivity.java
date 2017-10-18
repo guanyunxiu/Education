@@ -128,7 +128,9 @@ public class MainActivity extends BaseActivity {
     /**
      * 切换图片至暗色
      */
-    public void resetImgs() {    //id_scenicpot_rdo.setCompoundDrawablesWithIntrinsicBounds(0, R.mipmap.icon_main, 0, 0);
+    public void resetImgs() {
+        //今天天气不错辅导费热熔
+        //id_scenicpot_rdo.setCompoundDrawablesWithIntrinsicBounds(0, R.mipmap.icon_main, 0, 0);
         // id_mine_rdo.setCompoundDrawablesWithIntrinsicBounds(0, R.mipmap.icon_foot, 0, 0);
     }
 
