@@ -5,8 +5,97 @@
     android:background="@color/white"
     android:layout_gravity="bottom"
     android:orientation="horizontal" >
+    <RadioGroup
+        android:id="@+id/main_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_50"
+        android:orientation="horizontal"
+        android:background="@color/blue"
+        android:gravity="center_vertical"
+        >
+        <RelativeLayout
+            style="@style/tab_item_background"
+            >
+            <RadioButton
+                android:id="@+id/tab01_lv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableTop="@mipmap/icon_contacts"
+                android:clickable="true"
+                android:text="@string/bottom_01"
+                android:textSize="@dimen/size_10"
+                android:button="@null"
+                android:layout_marginTop="@dimen/height_5"
+                android:textColor="@color/white"
+                />
+        </RelativeLayout>
 
-    <LinearLayout
+        <RelativeLayout
+            style="@style/tab_item_background"
+            >
+            <RadioButton
+                android:id="@+id/tab02_lv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableTop="@mipmap/icon_contacts"
+                android:clickable="true"
+                android:text="@string/bottom_02"
+                android:textSize="@dimen/size_10"
+                android:button="@null"
+                android:layout_marginTop="@dimen/height_5"
+                android:textColor="@color/white"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            style="@style/tab_item_background"
+            >
+            <RadioButton
+                android:id="@+id/tab03_lv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableTop="@mipmap/icon_contacts"
+                android:clickable="true"
+                android:text="@string/bottom_04"
+                android:textSize="@dimen/size_10"
+                android:button="@null"
+                android:layout_marginTop="@dimen/height_5"
+                android:textColor="@color/white"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            style="@style/tab_item_background"
+            >
+            <RadioButton
+                android:id="@+id/tab04_lv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableTop="@mipmap/icon_contacts"
+                android:clickable="true"
+                android:text="@string/bottom_03"
+                android:textSize="@dimen/size_10"
+                android:button="@null"
+                android:layout_marginTop="@dimen/height_5"
+                android:textColor="@color/white"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            style="@style/tab_item_background"
+            >
+            <RadioButton
+                android:id="@+id/tab05_lv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableTop="@mipmap/icon_contacts"
+                android:clickable="true"
+                android:text="@string/bottom_05"
+                android:textSize="@dimen/size_10"
+                android:button="@null"
+                android:layout_marginTop="@dimen/height_5"
+                android:textColor="@color/white"
+                />
+        </RelativeLayout>
+    </RadioGroup>
+    <!--<LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/blue"
@@ -134,6 +223,6 @@
                 />
         </LinearLayout>
 
-    </LinearLayout>
+    </LinearLayout>-->
 
 </LinearLayout>

@@ -1,5 +1,6 @@
 package com.gyx.education.education.ui.fragment;
 
+import com.gyx.education.education.R;
 import com.gyx.education.education.base.BaseFragment;
 
 /**
@@ -10,7 +11,7 @@ import com.gyx.education.education.base.BaseFragment;
 public class QuestionFragment extends BaseFragment {
     @Override
     protected int attachLayoutRes() {
-        return 0;
+        return R.layout.fragment_question;
     }
 
     @Override
