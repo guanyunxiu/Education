@@ -66,6 +66,7 @@ public class MainActivity extends BaseActivity {
         FragmentTransaction transaction = fm.beginTransaction();
         hideFragment(transaction);
         // 把图片设置为亮的
+        //设置内容
         // 设置内容区域
         switch (i) {
             case 0:
