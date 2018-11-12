@@ -44,6 +44,7 @@ public class MainActivity extends BaseActivity {
     QuestionFragment questionFragment;
     PersonalFragment personalFragment;
 
+    //主方法
     @Override
     protected int attachLayoutRes() {
         return R.layout.activity_main;
